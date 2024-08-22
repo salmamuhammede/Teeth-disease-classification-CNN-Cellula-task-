@@ -1,24 +1,40 @@
 🦷 Teeth Disease Classification using CNN
+
 Overview
+
 Welcome to the Teeth Disease Classification project! 🌟 Imagine a future where dental issues are diagnosed instantly, saving countless smiles. This project brings us a step closer to that reality by leveraging the power of deep learning to classify teeth images into one of seven disease categories with an impressive accuracy of 95%! 🎉
 
+
 Table of Contents
+
 Introduction
+
 Dataset
+
 Preprocessing
+
 Model Architecture
+
 Training
+
 Results
+
 How to Use
+
 Conclusion
+
 Future Work
+
 Introduction
+
 Dental health is more than just a beautiful smile; it’s a key to overall wellness. However, diagnosing dental diseases can be challenging and time-consuming. This project, powered by a Convolutional Neural Network (CNN), aims to change that by automating the classification of teeth images into seven distinct disease categories. With this technology, we’re one step closer to revolutionizing dental care. 🦷💡
 
 Dataset
+
 The heart of this project lies in a carefully curated dataset of teeth images, each labeled with one of seven possible diseases. These images have been meticulously resized to 128x128 pixels and rescaled, ensuring they’re ready to be fed into our CNN model.
 
 Preprocessing
+
 To bring out the best in our model, we’ve gone through a thoughtful preprocessing pipeline:
 
 Image Resizing: Each image is resized to a neat 128x128 pixels, giving our model the consistency it craves.
@@ -34,6 +50,7 @@ Activation Functions: ReLU adds the energy, and Softmax brings clarity to the ou
 With Adam as our optimizer and categorical cross-entropy as our guide, we’ve crafted a model that’s both powerful and precise.
 
 Training
+
 Training this model was a journey of discovery and fine-tuning:
 
 Batch Size: 32 — just the right amount for balanced learning.
@@ -44,40 +61,49 @@ Results
 And the results? A stunning 95% accuracy on the test dataset! 🏆 This model is not just reliable—it’s a game-changer in the world of dental diagnostics.
 
 How to Use
+
 Prerequisites
+
 Before you dive in, make sure you have these tools ready:
 
 Python 3.x
+
 TensorFlow/Keras
+
 NumPy
+
 OpenCV
+
 Matplotlib
+
 Steps
+
 Clone this repository to your local machine.
-bash
-Copy code
+
 git clone https://github.com/salmamuhammede/Teeth-disease-classification-CNN-Cellula-task-
+
 Step into the project directory.
-bash
-Copy code
+
 cd teeth-disease-classification
+
 Install the necessary dependencies.
-bash
-Copy code
+
 pip install -r requirements.txt
+
 Prepare the dataset and place it where it belongs.
 Run the training script and watch the magic happen.
-bash
-Copy code
+
 python train.py
 Test the model on a new image—who knows what it will discover?
-bash
-Copy code
+
 python test.py --image_path /path/to/your/image.jpg
+
 Conclusion
+
 In this project, we’ve witnessed the incredible potential of CNNs in the field of dental health. The 95% accuracy achieved is not just a number—it’s a testament to the power of AI in transforming how we diagnose and treat dental diseases. With this model, the future of dental care looks brighter than ever. 🌟
 
 Future Work
+
 The journey doesn’t end here! Here’s what’s next:
 
 Expand the Dataset: More images mean a smarter, more robust model. 📈
